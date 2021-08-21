@@ -23,4 +23,24 @@ $ python setup.py install
 ```
 '1m', '5m', '15m', '30m', '1h', '2h', '3h', '4h', '6h', '12h', '1d', '1w', '1M', '1y'
 ```
-                  
+
+## Usage
+To use the converter first you have to import the ``convertcandle`` function
+
+```
+from tfConverter import convertcandle
+```
+
+### Function info:
+```
+OHLC Candle Converter
+Args:
+    time(pandas.Series): dataset 'Time' Column.
+    close(pandas.Series): dataset 'Close' column.
+    high(pandas.Series): dataset 'High' column.
+    low(pandas.Series): dataset 'Low' column.
+    timeframe(str): output candle time Period (see reference above).
+    fromtime(datetime): begin of conversion.
+    totime(datetime): end of conversion.
+    dtformat(str): string of all data input formats
+```
