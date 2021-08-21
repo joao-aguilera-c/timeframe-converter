@@ -6,13 +6,7 @@ Converts any timeframe OHLC data points (e.g. crypto data) to higher timeframes
 
 ## Installation
 
-You can install from PyPI:
-
-```
-$ pip install timeframe-converter
-```
-
-Or checkout the sources and run ``setup.py`` yourself:
+Checkout the sources and run ``setup.py``:
 
 ```
 $ python setup.py install
