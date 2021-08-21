@@ -31,16 +31,14 @@ To use the converter first you have to import the ``convertcandle`` function
 from tfConverter import convertcandle
 ```
 
-### Function info:
+### Function args:
 ```
-OHLC Candle Converter
-Args:
-    time(pandas.Series): dataset 'Time' Column.
-    close(pandas.Series): dataset 'Close' column.
-    high(pandas.Series): dataset 'High' column.
-    low(pandas.Series): dataset 'Low' column.
-    timeframe(str): output candle time Period (see reference above).
-    fromtime(datetime): begin of conversion.
-    totime(datetime): end of conversion.
-    dtformat(str): string of all data input formats
+time(pandas.Series): dataset 'Time' Column.
+close(pandas.Series): dataset 'Close' column.
+high(pandas.Series): dataset 'High' column.
+low(pandas.Series): dataset 'Low' column.
+timeframe(str): output candle time Period (see reference above).
+fromtime(datetime): begin of conversion.
+totime(datetime): end of conversion.
+dtformat(str): string of all data input formats
 ```
